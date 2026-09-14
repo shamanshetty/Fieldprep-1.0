@@ -1,0 +1,22 @@
+# Keep the public repository code-only.
+*
+!.gitignore
+!preprocessing.py
+!train.py
+!config.py
+!requirements.txt
+
+# Never publish generated artifacts or local environments.
+models/
+processed_dataset/
+duplicates/
+results/
+Potato/
+__pycache__/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+.venv/
+venv/
+.env
